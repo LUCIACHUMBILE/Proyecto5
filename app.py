@@ -2,8 +2,7 @@ import pandas as pd
 import streamlit as st
 import plotly_express as px
 
-data = pd.read_csv(
-    "C:/Users/LUCIA/OneDrive/ANÁLISIS DE DATOS/Visual Studio Code/Proyecto7/vehicles_us.csv")
+data = pd.read_csv("vehicles_us.csv")
 st.header("Explorando Opciones: Resumen de Anuncios de Autos en Venta :red_car:",
           divider='rainbow')  # Título principal
 
